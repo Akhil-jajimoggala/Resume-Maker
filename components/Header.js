@@ -7,7 +7,7 @@ const Header = () => {
             <Link href={'/'} className="mr-auto text-2xl">
                 <span className="text-gradient">Resumave</span>
             </Link>
-            <div className="bg-gray-100 dark:bg-gray-900 text-black dark:text-white flex flex-col items-center justify-center">
+            <div className=" dark:bg-gray-900 text-black dark:text-white flex flex-col items-center justify-center">
       <ThemeToggle />
     </div>
         </header>
