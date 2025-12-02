@@ -141,7 +141,7 @@ const Input = ({ label, name, type, placeholder, options, span, value, ...props 
     return (
         <div className={`${span ? 'md:col-span-2' : ''}`}>
             {label && (
-                <label htmlFor={name} className="mb-0.5 block text-xs text-gray-300 md:text-sm 2xl:text-base">
+                <label htmlFor={name} className="mb-0.5 block text-xs text-black dark:text-gray-300 md:text-sm 2xl:text-base">
                     {label ?? sentenceCase(name)} {props.required && '*'}
                 </label>
             )}

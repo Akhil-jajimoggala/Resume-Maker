@@ -5,7 +5,7 @@ import { IoIosRocket } from 'react-icons/io';
 
 const page = () => {
     return (
-        <div className="mx-auto flex h-full min-h-[calc(100vh-5rem)] max-w-screen-xl flex-col-reverse items-center justify-center gap-8 overflow-hidden px-3 py-6 text-center md:flex-row md:justify-between md:text-left">
+        <div className="mx-auto flex h-full min-h-[calc(100vh-5rem)] max-w-screen-xl flex-col-reverse items-center justify-center gap-8 overflow-hidden px-3 py-6 text-center md:flex-row md:justify-between md:text-left bg-gray-100 dark:bg-gray-700">
             <div className="">
                 <h4 className="text-base md:text-xl">
                     <span className="text-gradient">A Free and Open Source Resume Builder</span>

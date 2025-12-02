@@ -55,14 +55,14 @@ const Preview = () => {
 
             {!instance.loading && (
                 <div className="mt-4 flex justify-around">
-                    <button onClick={() => preview(instance.url)} className="btn text-sm">
+                    <button onClick={() => preview(instance.url)} className="btn text-sm text-white">
                         <span>Preview</span>
                         <FaEye />
                     </button>
                     <a
                         href={instance.url}
                         download={`${resumeData.contact?.name || 'resume'}.pdf`}
-                        className="btn text-sm"
+                        className="btn text-sm text-white"
                     >
                         <span>Download</span>
                         <FaDownload />

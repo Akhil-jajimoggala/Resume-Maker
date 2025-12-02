@@ -49,8 +49,8 @@ const MultiEditor = ({ tab }) => {
     };
 
     return (
-        <div>
-            <button type="button" className="btn mb-6 ml-auto bg-gray-600/75 text-sm 2xl:text-base" onClick={addNew}>
+        <div className=''>
+            <button type="button" className="btn mb-6 ml-auto bg-gray-600/75   text-sm 2xl:text-base" onClick={addNew}>
                 <LuPlus />
                 <span>Add New</span>
             </button>
@@ -73,7 +73,7 @@ const MultiEditor = ({ tab }) => {
 
                             <button
                                 disabled={i == 0}
-                                className="hover:text-primary-400 disabled:cursor-not-allowed disabled:opacity-50"
+                                className=" hover:text-primary-400 disabled:cursor-not-allowed disabled:opacity-50"
                                 onClick={_ => {
                                     _.stopPropagation();
                                     dispatch(moveIndex({ tab, index: i, dir: 'up' }));

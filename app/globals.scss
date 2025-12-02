@@ -8,7 +8,7 @@
 
 @layer base {
     body {
-        @apply bg-gray-800 text-gray-200 caret-primary-400;
+        @apply bg-gray-800 text-gray-200 caret-primary-400 dark:bg-gray-800 dark:text-white;;
         font-family: 'Ubuntu', sans-serif;
     }
 }

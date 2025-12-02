@@ -162,7 +162,7 @@ const Preview = () => {
                 <Header data={contact} />
 
                 {summary?.summary && (
-                    <Section title={'Summery'}>
+                    <Section title={'Summary'}>
                         <Text style={{ fontSize: 10 }}>{summary?.summary}</Text>
                     </Section>
                 )}
