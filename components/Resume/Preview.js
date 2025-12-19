@@ -39,7 +39,7 @@ const Preview = () => {
     }, [resumeData.saved]);
 
     return (
-        <div ref={parentRef} className="relative w-full md:max-w-[24rem] 2xl:max-w-[28rem]">
+        <div ref={parentRef} className="relative w-full md:max-w-[24rem] 2xl:max-w-[28rem] border bg-white dark:bg-gray-800 shadow-md">
             {instance.loading ?
                 <Loader />
             :   <Document loading={<Loader />} file={instance.url}>
@@ -54,15 +54,15 @@ const Preview = () => {
             }
 
             {!instance.loading && (
-                <div className="mt-4 flex justify-around">
-                    <button onClick={() => preview(instance.url)} className="btn text-sm text-white">
+                <div className="mt-4 mb-4 flex justify-around bg-white dark:bg-gray-800">
+                    <button onClick={() => preview(instance.url)} className="btn text-sm text-black bg-white dark:text-white dark:bg-gray-700">
                         <span>Preview</span>
                         <FaEye />
                     </button>
                     <a
                         href={instance.url}
                         download={`${resumeData.contact?.name || 'resume'}.pdf`}
-                        className="btn text-sm text-white"
+                        className="btn text-sm text-black bg-white dark:text-white dark:bg-gray-700"
                     >
                         <span>Download</span>
                         <FaDownload />
