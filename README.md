@@ -42,7 +42,7 @@ If you want to run Resumave locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-    git clone https://github.com/devxprite/resumave.git
+    git clone [https://github.com/devxprite/resumave.git](https://github.com/Akhil-jajimoggala/Resume-Maker.git)
    ```
 
 2. Navigate to the project directory:
@@ -66,7 +66,7 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 
 ## Usage
-To use Resumave, simply visit [resumave.vercel.app](https://resumave.vercel.app) and start filling out your details. Once complete, you can export your resume in PDF format.
+To use Resume-Maker, simply visit [resume-maker.vercel.app](resume-maker-six-ashen.vercel.app/) and start filling out your details. Once complete, you can export your resume in PDF format.
 
 ## License
 This project is licensed under the MIT License. see the LICENSE file for details.
